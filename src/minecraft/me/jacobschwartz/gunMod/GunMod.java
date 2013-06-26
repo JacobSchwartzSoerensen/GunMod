@@ -61,7 +61,7 @@ public class GunMod {
 	//12G Buckshot shells
 	
 	//Adding guns
-	public final static Item gun357Magnum = new Gun(5000, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1);
+	public final static Item gun357Magnum = new Gun(4022, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1);
 	
 	//Stufffffs
 	private MinelegionGuiHandler minelegionGuiHandler = new MinelegionGuiHandler();
