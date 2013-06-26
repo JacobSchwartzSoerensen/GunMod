@@ -3,7 +3,7 @@ This is the PRIVATE GunMod project repository
 Forge Version: 678
 Minecraft Version: 1.5.1
 
-In here, we will host all the source files for the project, in order to allow the team to develop together.
+In here, we will host all the source files for the project, in order for the team to develop together.
 We will also store the textures in this repository, to have a single storage point for easy access for the team.
 
 When a team member wishes to make a new change to the code(bugfix/feature), one should make a fork of the project, then a branch of that fork, and add changes to the new branch.
