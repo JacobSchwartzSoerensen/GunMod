@@ -62,6 +62,7 @@ public class GunMod {
 	
 	//Adding guns
 	public final static Item gun357Magnum = new Gun(4022, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1);
+	public final static Item gunAK47 = new Gun(4022, "GunMod:AK47", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1);
 	
 	//Stufffffs
 	private MinelegionGuiHandler minelegionGuiHandler = new MinelegionGuiHandler();
