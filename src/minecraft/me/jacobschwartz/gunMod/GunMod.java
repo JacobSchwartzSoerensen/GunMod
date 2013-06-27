@@ -132,7 +132,12 @@ public class GunMod {
 	@PreInit
 	public void preInit(FMLPreInitializationEvent event){
 		
+		 int entityID = EntityRegistry.findGlobalUniqueEntityId();
+         //EntityRegistry.registerGlobalEntityID(EntityBullet.class, "EntityBullet", entityID);
 		
+		//Register entities
+		EntityRegistry.registerModEntity(EntityBullet.class, "Bullet", entityID, GunMod.instance, 128, 1, true);
+		LanguageRegistry.instance().addStringLocalization("entity.Bullet.name", "Bullet");
 		
 	}
 	
@@ -274,10 +279,6 @@ public class GunMod {
 		
 		//Adding Ammo recipes
 		GameRegistry.addRecipe(new ItemStack(ammo357), " x ", "x x", " x ", 'x', new ItemStack(ItemShot));
-		
-		//Register entities
-		EntityRegistry.registerModEntity(EntityBullet.class, "Bullet", 1, this, 100, 1, false);
-		LanguageRegistry.instance().addStringLocalization("entity.Bullet.name", "Bullet");
 		
 		NetworkRegistry.instance().registerGuiHandler(this, minelegionGuiHandler);
 		

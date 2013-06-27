@@ -20,6 +20,7 @@ import net.minecraft.entity.IProjectile;
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -31,7 +32,7 @@ import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
 
-public class EntityBullet extends Entity  implements IThrowableEntity, IProjectile {
+public class EntityBullet extends EntityArrow implements IProjectile, IThrowableEntity {
 	
 	private int xTile = -1;
     private int yTile = -1;
@@ -202,6 +203,7 @@ public class EntityBullet extends Entity  implements IThrowableEntity, IProjecti
     public void onUpdate()
     {
         super.onUpdate();
+        super.onEntityUpdate();
         
         if (this.prevRotationPitch == 0.0F && this.prevRotationYaw == 0.0F)
         {
@@ -611,7 +613,7 @@ public class EntityBullet extends Entity  implements IThrowableEntity, IProjecti
         return (b0 & 1) != 0;
     }
     
-    public void setDead(){
+    /*public void setDead(){
     	super.setDead();
     	
     	this.motionX = 0;
@@ -620,10 +622,10 @@ public class EntityBullet extends Entity  implements IThrowableEntity, IProjecti
     	this.onUpdate();
     	
     	
-    }
+    }*/
 	@Override
 	public Entity getThrower() {
-		// TODO Auto-generated method stub
+		
 		return this.shootingEntity;
 	}
 	@Override
