@@ -1,6 +1,7 @@
 This is the PRIVATE GunMod project repository
 
 Forge Version: 678
+
 Minecraft Version: 1.5.1
 
 In here, we will host all the source files for the project, in order for the team to develop together.
@@ -13,6 +14,9 @@ The use of GitHub and this method is verry well described in this video: http://
 Keep in mind, that all code added to this project, is planned to get released as open-source when the mod have gained some popularity.
 
 Team:
+
 Jacob - Main coder, Code Coordinator
+
 Nicolai - Graphical Designer
+
 Bart - Recipes, Coder
