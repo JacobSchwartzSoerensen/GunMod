@@ -11,3 +11,8 @@ When the changes are done, make a pull request, to merge the new branch changes 
 The use of GitHub and this method is verry well described in this video: http://www.youtube.com/watch?v=pIGYELKPeog
 
 Keep in mind, that all code added to this project, is planned to get released as open-source when the mod have gained some popularity.
+
+Team:
+Jacob - Main coder, Code Coordinator
+Nicolai - Graphical Designer
+Bart - Recipes, Coder
