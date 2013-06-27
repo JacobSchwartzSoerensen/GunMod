@@ -56,13 +56,38 @@ public class GunMod {
 	public final static Item ammoMakarov = new Ammo(4019, "GunMod:9mm Makarov Mag", 5).setUnlocalizedName("Makarov_mag");
 	public final static Item ammoMP5 = new Ammo(4020, "GunMod:9mm MP5 Mag", 5).setUnlocalizedName("MP5_mag");
 	public final static Item ammoDesertEagle = new Ammo(4021, "GunMod:50. Cal. Desert Eagle Mag", 5).setUnlocalizedName("Desert_mag");
+	public final static Item ammoBarrett = new Ammo(4022, "GunMod:Barrett 50. Cal. Mag", 5).setUnlocalizedName("Barrett_mag");
+	public final static Item ammoM1911 = new Ammo(4022, "GunMod:M1911 .45 ACP Mag", 5).setUnlocalizedName("M1911_mag");
+	public final static Item ammoRocketGrenade = new Ammo(4023, "GunMod:Rocket Grenade", 5).setUnlocalizedName("Rocket_Grenade_mag");
 	
 	//Dafuq is this shizzle:
 	//12G Buckshot shells
 	
 	//Adding guns
-	public final static Item gun357Magnum = new Gun(4022, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1);
-	public final static Item gunAK47 = new Gun(4022, "GunMod:AK47", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1);
+	public final static Item gun357Magnum = new Gun(4024, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun 357 Magnum");
+	public final static Item gunAK47 = new Gun(4025, "GunMod:AK47", CreativeTabs.tabCombat, true, ammoAKM, "Bullet", (double)1, 1).setUnlocalizedName("gun AK 47");
+	public final static Item gunAK74 = new Gun(4026, "GunMod:AK74", CreativeTabs.tabCombat, true, ammoAKM, "Bullet", (double)1, 1).setUnlocalizedName("gun AK 74");
+	public final static Item gunBarrett = new Gun(4027, "GunMod:Barrett", CreativeTabs.tabCombat, true, ammoBarrett, "Bullet", (double)1, 1).setUnlocalizedName("gun Barrett");
+	public final static Item gunDesertEagle = new Gun(4028, "GunMod:Desert Eagle", CreativeTabs.tabCombat, true, ammoDesertEagle, "Bullet", (double)1, 1).setUnlocalizedName("gun Desert Eagle");
+	public final static Item gunDragunov = new Gun(4029, "GunMod:Dragunov", CreativeTabs.tabCombat, true, ammoDragunov, "Bullet", (double)1, 1).setUnlocalizedName("gun Dragunov");
+	public final static Item gunG3 = new Gun(4030, "GunMod:G3", CreativeTabs.tabCombat, true, ammoG3, "Bullet", (double)1, 1).setUnlocalizedName("gun G3");
+	public final static Item gunG17 = new Gun(4031, "GunMod:G17", CreativeTabs.tabCombat, true, ammoG17, "Bullet", (double)1, 1).setUnlocalizedName("gun G17");
+	public final static Item gunG36 = new Gun(4032, "GunMod:G36", CreativeTabs.tabCombat, true, ammoG36, "Bullet", (double)1, 1).setUnlocalizedName("gun G36");
+	public final static Item gunM16A4 = new Gun(4033, "GunMod:M16A4", CreativeTabs.tabCombat, true, ammoM16STANAG, "Bullet", (double)1, 1).setUnlocalizedName("gun M16A4");
+	public final static Item gunM21 = new Gun(4034, "GunMod:M21", CreativeTabs.tabCombat, true, ammoM21, "Bullet", (double)1, 1).setUnlocalizedName("gun M21");
+	public final static Item gunM39EMR = new Gun(4035, "GunMod:M39 EMR", CreativeTabs.tabCombat, true, ammoM39EMR, "Bullet", (double)1, 1).setUnlocalizedName("gun M39 EMR");
+	public final static Item gunM40A3 = new Gun(4036, "GunMod:M40A3", CreativeTabs.tabCombat, true, ammoM40A3, "Bullet", (double)1, 1).setUnlocalizedName("gun M40A3");
+	public final static Item gunM60E4 = new Gun(4037, "GunMod:M60E4", CreativeTabs.tabCombat, true, ammoM60, "Bullet", (double)1, 1).setUnlocalizedName("gun M60E4");
+	public final static Item gunM249 = new Gun(4038, "GunMod:M249", CreativeTabs.tabCombat, true, ammoM249, "Bullet", (double)1, 1).setUnlocalizedName("gun M249");
+	public final static Item gunM1014 = new Gun(4039, "GunMod:M1014", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun M1014");//Need ammo
+	public final static Item gunM1911 = new Gun(4040, "GunMod:M1911", CreativeTabs.tabCombat, true, ammoM1911, "Bullet", (double)1, 1).setUnlocalizedName("gun M1911");
+	public final static Item gunMakarov = new Gun(4041, "GunMod:Makarov", CreativeTabs.tabCombat, true, ammoMakarov, "Bullet", (double)1, 1).setUnlocalizedName("gun Makarov");
+	public final static Item gunMP5 = new Gun(4042, "GunMod:MP5", CreativeTabs.tabCombat, true, ammoMP5, "Bullet", (double)1, 1).setUnlocalizedName("gun MP5");
+	public final static Item gunP90 = new Gun(4043, "GunMod:P90", CreativeTabs.tabCombat, true, ammoP90, "Bullet", (double)1, 1).setUnlocalizedName("gun P90");
+	public final static Item gunRPD = new Gun(4044, "GunMod:RPD", CreativeTabs.tabCombat, true, ammoRPDDrum, "Bullet", (double)1, 1).setUnlocalizedName("gun RPD");
+	public final static Item gunRPG = new Gun(4045, "GunMod:RPG", CreativeTabs.tabCombat, true, ammoRocketGrenade, "Bullet", (double)1, 1).setUnlocalizedName("gun RPG");
+	public final static Item gunSMAW = new Gun(4046, "GunMod:SMAW", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun SMAW");//Need ammo
+	public final static Item gunSpas12 = new Gun(4047, "GunMod:Spas-12", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun Spas-12");//Need ammo
 	
 	//Stufffffs
 	private MinelegionGuiHandler minelegionGuiHandler = new MinelegionGuiHandler();
@@ -115,10 +140,35 @@ public class GunMod {
 		LanguageRegistry.addName(ammoMakarov, "9mm Makarov Mag.");
 		LanguageRegistry.addName(ammoMP5, "9mm MP5 Mag.");
 		LanguageRegistry.addName(ammoDesertEagle, "50. Cal. Desert Eagle Mag.");
+		LanguageRegistry.addName(ammoBarrett, "Barrett 50. Cal. Mag.");
+		LanguageRegistry.addName(ammoM1911, "M1911 .45 ACP Mag.");
+		LanguageRegistry.addName(ammoRocketGrenade, "Rocket Grenade");
 		
 		//Adding guns names
 		LanguageRegistry.addName(gun357Magnum, "357 Magnum");
-		
+		LanguageRegistry.addName(gunAK47, "AK47");
+		LanguageRegistry.addName(gunAK74, "AK74");
+		LanguageRegistry.addName(gunBarrett, "Barrett");
+		LanguageRegistry.addName(gunDesertEagle, "Desert Eagle");
+		LanguageRegistry.addName(gunDragunov, "Dragunov");
+		LanguageRegistry.addName(gunG3, "G3");
+		LanguageRegistry.addName(gunG17, "G17");
+		LanguageRegistry.addName(gunG36, "G36");
+		LanguageRegistry.addName(gunM16A4, "M16A4");
+		LanguageRegistry.addName(gunM21, "M21");
+		LanguageRegistry.addName(gunM39EMR, "M39 EMR");
+		LanguageRegistry.addName(gunM40A3, "M40A3");
+		LanguageRegistry.addName(gunM60E4, "M60E4");
+		LanguageRegistry.addName(gunM249, "M249");
+		LanguageRegistry.addName(gunM1014, "M1014");
+		LanguageRegistry.addName(gunM1911, "M1911");
+		LanguageRegistry.addName(gunMakarov, "Makarov");
+		LanguageRegistry.addName(gunMP5, "MP5");
+		LanguageRegistry.addName(gunP90, "P90");
+		LanguageRegistry.addName(gunRPD, "RPD");
+		LanguageRegistry.addName(gunRPG, "RPG");
+		LanguageRegistry.addName(gunSMAW, "SMAW");
+		LanguageRegistry.addName(gunSpas12, "Spas-12");
 		
 		//Adding Blocks Recipes
 		GameRegistry.addRecipe(new ItemStack(weaponsBox, 1, 0), "xxx", "yyy", "yyy", 'x', new ItemStack(ironPlating), 'y', new ItemStack(Block.workbench));
