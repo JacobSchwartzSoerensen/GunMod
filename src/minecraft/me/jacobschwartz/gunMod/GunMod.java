@@ -236,18 +236,44 @@ public class GunMod {
 		GameRegistry.addRecipe(new ItemStack(ammoBox, 1, 0), "xxx", "yyy", "xxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.workbench));
 		
 		//Adding Crafting parts Crafting recipes
+		GameRegistry.addRecipe(new ItemStack(ItemIronPlating, 16), "   ", "xxx", "   ", 'x', new ItemStack(Item.ingotIron));
+		GameRegistry.addShapelessRecipe(new ItemStack(ItemShot, 16), new ItemStack(Item.gunpowder, 1));
+		GameRegistry.addSmelting(Item.reed.itemID, new ItemStack(ItemAbsPlastic, 6), 0.0F);
+		GameRegistry.addRecipe(new ItemStack(ItemBallisticScope, 12, 0), "xxy", "yzy", "xxy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.glass), 'z', new ItemStack(Item.lightStoneDust));
+		GameRegistry.addRecipe(new ItemStack(ItemBipod, 1, 0), " x ", "yxy", "y y", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.stick));
+		GameRegistry.addRecipe(new ItemStack(ItemCarryHandle, 1, 0), "   ", "xxx", "y y", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemRocketExhaust, 1, 0), " xy", "xy ", " xy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemIronSights, 1, 0), "   ", "y y", "xxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemLMGGripTrigger, 1, 0), "xxx", "xyy", "zyc", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Item.leather), 'c', new ItemStack(Item.stick));
+		GameRegistry.addRecipe(new ItemStack(ItemLMGStock, 1, 0), "   ", "xxy", "yyy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemPistolBarrel, 1, 0), "   ", " yy", "   ", 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemPistolBolt, 1, 0), "  x", " yy", "   ", 'x', new ItemStack(Item.stick), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemPistolGripTrigger, 1, 0), "   ", " xx", "zyc", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Item.leather), 'c', new ItemStack(Item.stick));
+		GameRegistry.addRecipe(new ItemStack(ItemRedDotSight, 1, 0), "xxx", "yzy", "xxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.glass), 'z', new ItemStack(Item.redstone));
+		GameRegistry.addRecipe(new ItemStack(ItemRevolverChamber, 1, 0), "xxx", "  x", "xxx", 'x', new ItemStack(ItemIronPlating));
+		GameRegistry.addRecipe(new ItemStack(ItemRifleBarrel, 1, 0), "   ", "yyy", "xx ", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemRifleBolt, 1, 0), "  x", "yyy", "   ", 'x', new ItemStack(Item.stick), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemRifleGripTrigger, 1, 0), "   ", "xxy", " zc", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Item.leather), 'c', new ItemStack(Item.stick));
+		GameRegistry.addRecipe(new ItemStack(ItemRifleStock, 1, 0), "   ", "yyx", " xx", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemRocketTrigger, 1, 0), "   ", "yyy", "  x", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemRPGRocketTube, 1, 0), "xxx", "   ", "xxx", 'x', new ItemStack(ItemIronPlating));
+		GameRegistry.addRecipe(new ItemStack(ItemShoulderMount, 1, 0), "   ", "xxx", " yy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.leather));
+		GameRegistry.addRecipe(new ItemStack(ItemSMAWRocketTube, 1, 0), "yxx", "   ", "yxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemSMGGripTrigger, 1, 0), " xx", " yy", " zc", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Item.leather), 'c', new ItemStack(Item.stick));
+		GameRegistry.addRecipe(new ItemStack(ItemSMGStock, 1, 0), "   ", "xxy", " zy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Block.planks));
+		GameRegistry.addRecipe(new ItemStack(ItemSniperRifleBarrel, 1, 0), "   ", "yyy", " xx", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemSniperRifleGripTrigger, 1, 0), "xxx", "yyy", " zc", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Item.leather), 'c', new ItemStack(Item.stick));
+		GameRegistry.addRecipe(new ItemStack(ItemSniperRifleStock, 1, 0), "   ", "yyx", " yx", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemTacticalSight, 1, 0), " yy", " xx", " yy", 'x', new ItemStack(Item.redstone), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemThermalBinoculars, 1, 0), "yxy", "zcv", "yxy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron), 'z', new ItemStack(Block.glass), 'c', new ItemStack(Item.lightStoneDust), 'v', new ItemStack(Item.redstone));
+		GameRegistry.addRecipe(new ItemStack(ItemWeaverRail, 1, 0), "   ", "y y", "xxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.ingotIron));
+		GameRegistry.addRecipe(new ItemStack(ItemWoodenStock, 1, 0), "   ", "xxy", "zzz", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Item.stick), 'z', new ItemStack(Block.planks));
 		
 		//Adding Gun Recipes
 		GameRegistry.addRecipe(new ItemStack(gun357Magnum), "   ", "xxy", "y  ", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Block.cobblestone));
 		
 		//Adding Ammo recipes
 		GameRegistry.addRecipe(new ItemStack(ammo357), " x ", "x x", " x ", 'x', new ItemStack(ItemShot));
-		
-		//Adding Parts Recipes
-		GameRegistry.addRecipe(new ItemStack(ItemIronPlating, 16), "   ", "xxx", "   ", 'x', new ItemStack(Item.ingotIron));
-		GameRegistry.addShapelessRecipe(new ItemStack(ItemShot, 16), new ItemStack(Item.gunpowder, 1));
-		GameRegistry.addSmelting(Item.reed.itemID, new ItemStack(ItemAbsPlastic, 6), 0.0F);
-		
 		
 		//Register entities
 		EntityRegistry.registerModEntity(EntityBullet.class, "Bullet", 1, this, 100, 1, false);
