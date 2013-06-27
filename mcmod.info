@@ -1,0 +1,21 @@
+{
+  "modinfoversion": 2,
+  "modlist": [{
+    "modid": "GunMod",
+    "name": "Gun Mod",
+    "description": "A mod adding guns, and other weapons/tools for combat.",
+    "version": "0.0.0.5",
+    "mcversion": "1.5.1",
+    "url": "",
+    "updateUrl": "",
+    "authors": [ "JacobSchwartz", "NicolaiRavn", "ScorBlox" ],
+    "credits": "Main Coder: JacobSchwartz, Graphical Designer: NicolaiRavn, Recipes + Code: ScorBlox",
+    "logoFile": "",
+    "screenshots": [  ],
+    "parent": "",
+    "requiredMods": [ "Forge" ],
+    "dependencies": [  ],
+    "dependants": [  ],
+    "useDependencyInformation": "false"
+  }]
+}
