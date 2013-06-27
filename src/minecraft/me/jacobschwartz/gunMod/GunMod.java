@@ -59,6 +59,7 @@ public class GunMod {
 	public final static Item ammoBarrett = new Ammo(4022, "GunMod:Barrett 50. Cal. Mag", 5).setUnlocalizedName("Barrett_mag");
 	public final static Item ammoM1911 = new Ammo(4022, "GunMod:M1911 .45 ACP Mag", 5).setUnlocalizedName("M1911_mag");
 	public final static Item ammoRocketGrenade = new Ammo(4023, "GunMod:Rocket Grenade", 5).setUnlocalizedName("Rocket_Grenade_mag");
+	public final static Item ammoBuckshot = new Ammo(4023, "GunMod:12G BUCKSHOT Shells", 5).setUnlocalizedName("Buckshot_Shells_mag");
 	
 	//Dafuq is this shizzle:
 	//12G Buckshot shells
