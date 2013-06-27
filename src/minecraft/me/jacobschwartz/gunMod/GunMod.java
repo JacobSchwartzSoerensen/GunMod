@@ -36,9 +36,38 @@ public class GunMod {
 	
 	//Crafting Parts
 	//ID 4100 - 4199 reserved
-	public final static Item shot = new BasicItem(4100, "GunMod:shot").setUnlocalizedName("shot").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
-	public final static Item ironPlating = new BasicItem(4101, "GunMod:IronPlating").setUnlocalizedName("ironplating").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
-	public final static Item absPlastic = new BasicItem(4102, "GunMod:absPlastic").setUnlocalizedName("absplastic").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemShot = new BasicItem(4100, "GunMod:shot").setUnlocalizedName("item_shot").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemIronPlating = new BasicItem(4101, "GunMod:IronPlating").setUnlocalizedName("item_iron_plating").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemAbsPlastic = new BasicItem(4102, "GunMod:absPlastic").setUnlocalizedName("item_absplastic").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemBallisticScope = new BasicItem(4103, "GunMod:NA").setUnlocalizedName("item_ballistic_scope").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemBipod = new BasicItem(4104, "GunMod:NA").setUnlocalizedName("item_bipod").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemCarryHandle = new BasicItem(4105, "GunMod:NA").setUnlocalizedName("item_carry_handle").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRocketExhaust = new BasicItem(4106, "GunMod:NA").setUnlocalizedName("item_rocket_exhaust").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemIronSights = new BasicItem(4107, "GunMod:NA").setUnlocalizedName("item_iron_sights").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemLMGGripTrigger = new BasicItem(4108, "GunMod:NA").setUnlocalizedName("item_lmg_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemLMGStock = new BasicItem(4109, "GunMod:NA").setUnlocalizedName("item_lmg_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemPistolBarrel = new BasicItem(4110, "GunMod:NA").setUnlocalizedName("item_pistol_barrel").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemPistolBolt = new BasicItem(4111, "GunMod:NA").setUnlocalizedName("item_pistol_bolt").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemPistolGripTrigger = new BasicItem(4112, "GunMod:NA").setUnlocalizedName("item_pistol_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRedDotSight = new BasicItem(4113, "GunMod:NA").setUnlocalizedName("item_red_dot_sight").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRevolverChamber = new BasicItem(4114, "GunMod:NA").setUnlocalizedName("item_revolver_chamber").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRifleBarrel = new BasicItem(4115, "GunMod:NA").setUnlocalizedName("item_rifle_barrel").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRifleBolt = new BasicItem(4116, "GunMod:NA").setUnlocalizedName("item_rifle_bolt").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRifleGripTrigger = new BasicItem(4117, "GunMod:NA").setUnlocalizedName("item_rifle_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRifleStock = new BasicItem(4118, "GunMod:NA").setUnlocalizedName("item_rifle_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRocketTrigger = new BasicItem(4119, "GunMod:NA").setUnlocalizedName("item_rocket_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemRPGRocketTube = new BasicItem(4120, "GunMod:NA").setUnlocalizedName("item_rpg_rocket_tube").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemShoulderMount = new BasicItem(4121, "GunMod:NA").setUnlocalizedName("item_shoulder_mount").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSMAWRocketTube = new BasicItem(4122, "GunMod:NA").setUnlocalizedName("item_smaw_rocket_tube").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSMAWGripTrigger = new BasicItem(4123, "GunMod:NA").setUnlocalizedName("item_smaw_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSMGSTOCK = new BasicItem(4124, "GunMod:NA").setUnlocalizedName("item_smg_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSniperRifleBarrel = new BasicItem(4125, "GunMod:NA").setUnlocalizedName("item_sniper_rifle_barrel").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSniperRifleGripTrigger = new BasicItem(4126, "GunMod:NA").setUnlocalizedName("item_sniper_rifle_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSniperRifleStock = new BasicItem(4127, "GunMod:NA").setUnlocalizedName("item_sniper_rifle_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemTacticalSight = new BasicItem(4128, "GunMod:NA").setUnlocalizedName("item_tactical_sight").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemThermalBinoculars = new BasicItem(4129, "GunMod:NA").setUnlocalizedName("item_thermal_binoculars").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemWeaverRail = new BasicItem(4130, "GunMod:NA").setUnlocalizedName("item_weaver_rail").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemWoodenStock = new BasicItem(4131, "GunMod:NA").setUnlocalizedName("item_wooden_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	
 	//Adding Ammo
 	//ID 4200 - 4299 reserved
@@ -120,9 +149,9 @@ public class GunMod {
 		LanguageRegistry.addName(ammoBox, "Ammo Box");
 		
 		//Adding Crafting parts names
-		LanguageRegistry.addName(shot, "Shot");
-		LanguageRegistry.addName(ironPlating, "Iron Plating");
-		LanguageRegistry.addName(absPlastic, "ABS Plastic");
+		LanguageRegistry.addName(ItemShot, "Shot");
+		LanguageRegistry.addName(ItemIronPlating, "Iron Plating");
+		LanguageRegistry.addName(ItemAbsPlastic, "ABS Plastic");
 		
 		//Adding Ammo names
 		LanguageRegistry.addName(ammoP90, "5.7mm P90 Mag.");
@@ -174,19 +203,19 @@ public class GunMod {
 		LanguageRegistry.addName(gunSpas12, "Spas-12");
 		
 		//Adding Blocks Recipes
-		GameRegistry.addRecipe(new ItemStack(weaponsBox, 1, 0), "xxx", "yyy", "yyy", 'x', new ItemStack(ironPlating), 'y', new ItemStack(Block.workbench));
-		GameRegistry.addRecipe(new ItemStack(ammoBox, 1, 0), "xxx", "yyy", "xxx", 'x', new ItemStack(ironPlating), 'y', new ItemStack(Block.workbench));
+		GameRegistry.addRecipe(new ItemStack(weaponsBox, 1, 0), "xxx", "yyy", "yyy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.workbench));
+		GameRegistry.addRecipe(new ItemStack(ammoBox, 1, 0), "xxx", "yyy", "xxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.workbench));
 		
 		//Adding Gun Recipes
 		GameRegistry.addRecipe(new ItemStack(gun357Magnum), "   ", "xxy", "y  ", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Block.cobblestone));
 		
 		//Adding Ammo recipes
-		GameRegistry.addRecipe(new ItemStack(ammo357), " x ", "x x", " x ", 'x', new ItemStack(shot));
+		GameRegistry.addRecipe(new ItemStack(ammo357), " x ", "x x", " x ", 'x', new ItemStack(ItemShot));
 		
 		//Adding Parts Recipes
-		GameRegistry.addRecipe(new ItemStack(ironPlating, 16), "   ", "xxx", "   ", 'x', new ItemStack(Item.ingotIron));
-		GameRegistry.addShapelessRecipe(new ItemStack(shot, 16), new ItemStack(Item.gunpowder, 1));
-		GameRegistry.addSmelting(Item.reed.itemID, new ItemStack(absPlastic, 6), 0.0F);
+		GameRegistry.addRecipe(new ItemStack(ItemIronPlating, 16), "   ", "xxx", "   ", 'x', new ItemStack(Item.ingotIron));
+		GameRegistry.addShapelessRecipe(new ItemStack(ItemShot, 16), new ItemStack(Item.gunpowder, 1));
+		GameRegistry.addSmelting(Item.reed.itemID, new ItemStack(ItemAbsPlastic, 6), 0.0F);
 		
 		
 		//Register entities
