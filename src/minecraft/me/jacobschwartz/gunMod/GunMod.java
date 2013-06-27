@@ -30,65 +30,66 @@ public class GunMod {
 	//Adding Creative tabs
 	
 	//Adding Blocks
+	//ID 4000 - 4099 reserved
 	public final static Block ammoBox = new BlockAmmoBox(4000).setHardness(0.5F).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("ammobox").setCreativeTab(CreativeTabs.tabCombat);
 	public final static Block weaponsBox = new BlockWeaponsBox(4001).setHardness(0.5F).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("weaponsbox").setCreativeTab(CreativeTabs.tabCombat);
 	
 	//Crafting Parts
-	public final static Item shot = new BasicItem(4002, "GunMod:shot").setUnlocalizedName("shot").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
-	public final static Item ironPlating = new BasicItem(4003, "GunMod:IronPlating").setUnlocalizedName("ironplating").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
-	public final static Item absPlastic = new BasicItem(4004, "GunMod:absPlastic").setUnlocalizedName("absplastic").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	//ID 4100 - 4199 reserved
+	public final static Item shot = new BasicItem(4100, "GunMod:shot").setUnlocalizedName("shot").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ironPlating = new BasicItem(4101, "GunMod:IronPlating").setUnlocalizedName("ironplating").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item absPlastic = new BasicItem(4102, "GunMod:absPlastic").setUnlocalizedName("absplastic").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	
 	//Adding Ammo
-	public final static Item ammoP90 = new Ammo(4005, "GunMod:5.7mm P90 Mag", 5).setUnlocalizedName("P90_mag");
-	public final static Item ammoG36 = new Ammo(4006, "GunMod:5.56mm G36 Mag", 5).setUnlocalizedName("G36_mag");
-	public final static Item ammoM16STANAG = new Ammo(4007, "GunMod:5.56mm M16 STANAG. Mag", 5).setUnlocalizedName("M16_mag");
-	public final static Item ammoM249 = new Ammo(4008, "GunMod:5.56mm M249 Mag", 5).setUnlocalizedName("M249_mag");
-	public final static Item ammoAKM = new Ammo(4009, "GunMod:7.62mm AKM Mag", 5).setUnlocalizedName("AKM_mag");
-	public final static Item ammoDragunov = new Ammo(4010, "GunMod:7.62mm Dragunov Mag", 5).setUnlocalizedName("Dragunov_mag");
-	public final static Item ammoG3 = new Ammo(4011, "GunMod:7.62mm G3 Mag", 5).setUnlocalizedName("G3_mag");
-	public final static Item ammoM21 = new Ammo(4012, "GunMod:7.62mm M21 Mag", 5).setUnlocalizedName("M21_mag");
-	public final static Item ammoM39EMR = new Ammo(4013, "GunMod:7.62mm M39 EMR Mag", 5).setUnlocalizedName("M39_mag");
-	public final static Item ammoM40A3 = new Ammo(4014, "GunMod:7.62mm M40A3 Mag", 5).setUnlocalizedName("M40A3_mag");
-	public final static Item ammoM60 = new Ammo(4015, "GunMod:7.62mm M60 Mag", 5).setUnlocalizedName("M60_mag");
-	public final static Item ammoRPDDrum = new Ammo(4016, "GunMod:7.62mm RPD Drum Mag", 5).setUnlocalizedName("RPD_mag");
-	public final static Item ammo357 = new Ammo(4017, "GunMod:9mm 357 Mag", 5).setUnlocalizedName("357_mag");
-	public final static Item ammoG17 = new Ammo(4018, "GunMod:9mm G17 Mag", 5).setUnlocalizedName("G17_mag");
-	public final static Item ammoMakarov = new Ammo(4019, "GunMod:9mm Makarov Mag", 5).setUnlocalizedName("Makarov_mag");
-	public final static Item ammoMP5 = new Ammo(4020, "GunMod:9mm MP5 Mag", 5).setUnlocalizedName("MP5_mag");
-	public final static Item ammoDesertEagle = new Ammo(4021, "GunMod:50. Cal. Desert Eagle Mag", 5).setUnlocalizedName("Desert_mag");
-	public final static Item ammoBarrett = new Ammo(4022, "GunMod:Barrett 50. Cal. Mag", 5).setUnlocalizedName("Barrett_mag");
-	public final static Item ammoM1911 = new Ammo(4022, "GunMod:M1911 .45 ACP Mag", 5).setUnlocalizedName("M1911_mag");
-	public final static Item ammoRocketGrenade = new Ammo(4023, "GunMod:Rocket Grenade", 5).setUnlocalizedName("Rocket_Grenade_mag");
-	public final static Item ammoBuckshot = new Ammo(4023, "GunMod:12G BUCKSHOT Shells", 5).setUnlocalizedName("Buckshot_Shells_mag");
-	
-	//Dafuq is this shizzle:
-	//12G Buckshot shells
+	//ID 4200 - 4299 reserved
+	public final static Item ammoP90 = new Ammo(4200, "GunMod:5.7mm P90 Mag", 5).setUnlocalizedName("P90_mag");
+	public final static Item ammoG36 = new Ammo(4201, "GunMod:5.56mm G36 Mag", 5).setUnlocalizedName("G36_mag");
+	public final static Item ammoM16STANAG = new Ammo(4202, "GunMod:5.56mm M16 STANAG. Mag", 5).setUnlocalizedName("M16_mag");
+	public final static Item ammoM249 = new Ammo(4203, "GunMod:5.56mm M249 Mag", 5).setUnlocalizedName("M249_mag");
+	public final static Item ammoAKM = new Ammo(4204, "GunMod:7.62mm AKM Mag", 5).setUnlocalizedName("AKM_mag");
+	public final static Item ammoDragunov = new Ammo(4205, "GunMod:7.62mm Dragunov Mag", 5).setUnlocalizedName("Dragunov_mag");
+	public final static Item ammoG3 = new Ammo(4206, "GunMod:7.62mm G3 Mag", 5).setUnlocalizedName("G3_mag");
+	public final static Item ammoM21 = new Ammo(4207, "GunMod:7.62mm M21 Mag", 5).setUnlocalizedName("M21_mag");
+	public final static Item ammoM39EMR = new Ammo(4208, "GunMod:7.62mm M39 EMR Mag", 5).setUnlocalizedName("M39_mag");
+	public final static Item ammoM40A3 = new Ammo(4209, "GunMod:7.62mm M40A3 Mag", 5).setUnlocalizedName("M40A3_mag");
+	public final static Item ammoM60 = new Ammo(4210, "GunMod:7.62mm M60 Mag", 5).setUnlocalizedName("M60_mag");
+	public final static Item ammoRPDDrum = new Ammo(4211, "GunMod:7.62mm RPD Drum Mag", 5).setUnlocalizedName("RPD_mag");
+	public final static Item ammo357 = new Ammo(4212, "GunMod:9mm 357 Mag", 5).setUnlocalizedName("357_mag");
+	public final static Item ammoG17 = new Ammo(4213, "GunMod:9mm G17 Mag", 5).setUnlocalizedName("G17_mag");
+	public final static Item ammoMakarov = new Ammo(4214, "GunMod:9mm Makarov Mag", 5).setUnlocalizedName("Makarov_mag");
+	public final static Item ammoMP5 = new Ammo(4215, "GunMod:9mm MP5 Mag", 5).setUnlocalizedName("MP5_mag");
+	public final static Item ammoDesertEagle = new Ammo(4216, "GunMod:50. Cal. Desert Eagle Mag", 5).setUnlocalizedName("Desert_mag");
+	public final static Item ammoBarrett = new Ammo(4217, "GunMod:Barrett 50. Cal. Mag", 5).setUnlocalizedName("Barrett_mag");
+	public final static Item ammoM1911 = new Ammo(4218, "GunMod:M1911 .45 ACP Mag", 5).setUnlocalizedName("M1911_mag");
+	public final static Item ammoRocketGrenade = new Ammo(4219, "GunMod:Rocket Grenade", 5).setUnlocalizedName("Rocket_Grenade_mag");
+	public final static Item ammoBuckshot = new Ammo(4220, "GunMod:12G BUCKSHOT Shells", 5).setUnlocalizedName("Buckshot_Shells_mag");
 	
 	//Adding guns
-	public final static Item gun357Magnum = new Gun(4024, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun 357 Magnum");
-	public final static Item gunAK47 = new Gun(4025, "GunMod:AK47", CreativeTabs.tabCombat, true, ammoAKM, "Bullet", (double)1, 1).setUnlocalizedName("gun AK 47");
-	public final static Item gunAK74 = new Gun(4026, "GunMod:AK74", CreativeTabs.tabCombat, true, ammoAKM, "Bullet", (double)1, 1).setUnlocalizedName("gun AK 74");
-	public final static Item gunBarrett = new Gun(4027, "GunMod:Barrett", CreativeTabs.tabCombat, true, ammoBarrett, "Bullet", (double)1, 1).setUnlocalizedName("gun Barrett");
-	public final static Item gunDesertEagle = new Gun(4028, "GunMod:Desert Eagle", CreativeTabs.tabCombat, true, ammoDesertEagle, "Bullet", (double)1, 1).setUnlocalizedName("gun Desert Eagle");
-	public final static Item gunDragunov = new Gun(4029, "GunMod:Dragunov", CreativeTabs.tabCombat, true, ammoDragunov, "Bullet", (double)1, 1).setUnlocalizedName("gun Dragunov");
-	public final static Item gunG3 = new Gun(4030, "GunMod:G3", CreativeTabs.tabCombat, true, ammoG3, "Bullet", (double)1, 1).setUnlocalizedName("gun G3");
-	public final static Item gunG17 = new Gun(4031, "GunMod:G17", CreativeTabs.tabCombat, true, ammoG17, "Bullet", (double)1, 1).setUnlocalizedName("gun G17");
-	public final static Item gunG36 = new Gun(4032, "GunMod:G36", CreativeTabs.tabCombat, true, ammoG36, "Bullet", (double)1, 1).setUnlocalizedName("gun G36");
-	public final static Item gunM16A4 = new Gun(4033, "GunMod:M16A4", CreativeTabs.tabCombat, true, ammoM16STANAG, "Bullet", (double)1, 1).setUnlocalizedName("gun M16A4");
-	public final static Item gunM21 = new Gun(4034, "GunMod:M21", CreativeTabs.tabCombat, true, ammoM21, "Bullet", (double)1, 1).setUnlocalizedName("gun M21");
-	public final static Item gunM39EMR = new Gun(4035, "GunMod:M39 EMR", CreativeTabs.tabCombat, true, ammoM39EMR, "Bullet", (double)1, 1).setUnlocalizedName("gun M39 EMR");
-	public final static Item gunM40A3 = new Gun(4036, "GunMod:M40A3", CreativeTabs.tabCombat, true, ammoM40A3, "Bullet", (double)1, 1).setUnlocalizedName("gun M40A3");
-	public final static Item gunM60E4 = new Gun(4037, "GunMod:M60E4", CreativeTabs.tabCombat, true, ammoM60, "Bullet", (double)1, 1).setUnlocalizedName("gun M60E4");
-	public final static Item gunM249 = new Gun(4038, "GunMod:M249", CreativeTabs.tabCombat, true, ammoM249, "Bullet", (double)1, 1).setUnlocalizedName("gun M249");
-	public final static Item gunM1014 = new Gun(4039, "GunMod:M1014", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun M1014");//Need ammo
-	public final static Item gunM1911 = new Gun(4040, "GunMod:M1911", CreativeTabs.tabCombat, true, ammoM1911, "Bullet", (double)1, 1).setUnlocalizedName("gun M1911");
-	public final static Item gunMakarov = new Gun(4041, "GunMod:Makarov", CreativeTabs.tabCombat, true, ammoMakarov, "Bullet", (double)1, 1).setUnlocalizedName("gun Makarov");
-	public final static Item gunMP5 = new Gun(4042, "GunMod:MP5", CreativeTabs.tabCombat, true, ammoMP5, "Bullet", (double)1, 1).setUnlocalizedName("gun MP5");
-	public final static Item gunP90 = new Gun(4043, "GunMod:P90", CreativeTabs.tabCombat, true, ammoP90, "Bullet", (double)1, 1).setUnlocalizedName("gun P90");
-	public final static Item gunRPD = new Gun(4044, "GunMod:RPD", CreativeTabs.tabCombat, true, ammoRPDDrum, "Bullet", (double)1, 1).setUnlocalizedName("gun RPD");
-	public final static Item gunRPG = new Gun(4045, "GunMod:RPG", CreativeTabs.tabCombat, true, ammoRocketGrenade, "Bullet", (double)1, 1).setUnlocalizedName("gun RPG");
-	public final static Item gunSMAW = new Gun(4046, "GunMod:SMAW", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun SMAW");//Need ammo
-	public final static Item gunSpas12 = new Gun(4047, "GunMod:Spas-12", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun Spas-12");//Need ammo
+	//ID 4300 - 4399 reserved
+	public final static Item gun357Magnum = new Gun(4300, "GunMod:357 Magnum", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun 357 Magnum");
+	public final static Item gunAK47 = new Gun(4301, "GunMod:AK47", CreativeTabs.tabCombat, true, ammoAKM, "Bullet", (double)1, 1).setUnlocalizedName("gun AK 47");
+	public final static Item gunAK74 = new Gun(4302, "GunMod:AK74", CreativeTabs.tabCombat, true, ammoAKM, "Bullet", (double)1, 1).setUnlocalizedName("gun AK 74");
+	public final static Item gunBarrett = new Gun(4303, "GunMod:Barrett", CreativeTabs.tabCombat, true, ammoBarrett, "Bullet", (double)1, 1).setUnlocalizedName("gun Barrett");
+	public final static Item gunDesertEagle = new Gun(4304, "GunMod:Desert Eagle", CreativeTabs.tabCombat, true, ammoDesertEagle, "Bullet", (double)1, 1).setUnlocalizedName("gun Desert Eagle");
+	public final static Item gunDragunov = new Gun(4305, "GunMod:Dragunov", CreativeTabs.tabCombat, true, ammoDragunov, "Bullet", (double)1, 1).setUnlocalizedName("gun Dragunov");
+	public final static Item gunG3 = new Gun(4306, "GunMod:G3", CreativeTabs.tabCombat, true, ammoG3, "Bullet", (double)1, 1).setUnlocalizedName("gun G3");
+	public final static Item gunG17 = new Gun(4307, "GunMod:G17", CreativeTabs.tabCombat, true, ammoG17, "Bullet", (double)1, 1).setUnlocalizedName("gun G17");
+	public final static Item gunG36 = new Gun(4308, "GunMod:G36", CreativeTabs.tabCombat, true, ammoG36, "Bullet", (double)1, 1).setUnlocalizedName("gun G36");
+	public final static Item gunM16A4 = new Gun(4309, "GunMod:M16A4", CreativeTabs.tabCombat, true, ammoM16STANAG, "Bullet", (double)1, 1).setUnlocalizedName("gun M16A4");
+	public final static Item gunM21 = new Gun(4310, "GunMod:M21", CreativeTabs.tabCombat, true, ammoM21, "Bullet", (double)1, 1).setUnlocalizedName("gun M21");
+	public final static Item gunM39EMR = new Gun(4311, "GunMod:M39 EMR", CreativeTabs.tabCombat, true, ammoM39EMR, "Bullet", (double)1, 1).setUnlocalizedName("gun M39 EMR");
+	public final static Item gunM40A3 = new Gun(4312, "GunMod:M40A3", CreativeTabs.tabCombat, true, ammoM40A3, "Bullet", (double)1, 1).setUnlocalizedName("gun M40A3");
+	public final static Item gunM60E4 = new Gun(4313, "GunMod:M60E4", CreativeTabs.tabCombat, true, ammoM60, "Bullet", (double)1, 1).setUnlocalizedName("gun M60E4");
+	public final static Item gunM249 = new Gun(4314, "GunMod:M249", CreativeTabs.tabCombat, true, ammoM249, "Bullet", (double)1, 1).setUnlocalizedName("gun M249");
+	public final static Item gunM1014 = new Gun(4315, "GunMod:M1014", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun M1014");//Need ammo
+	public final static Item gunM1911 = new Gun(4316, "GunMod:M1911", CreativeTabs.tabCombat, true, ammoM1911, "Bullet", (double)1, 1).setUnlocalizedName("gun M1911");
+	public final static Item gunMakarov = new Gun(4317, "GunMod:Makarov", CreativeTabs.tabCombat, true, ammoMakarov, "Bullet", (double)1, 1).setUnlocalizedName("gun Makarov");
+	public final static Item gunMP5 = new Gun(4318, "GunMod:MP5", CreativeTabs.tabCombat, true, ammoMP5, "Bullet", (double)1, 1).setUnlocalizedName("gun MP5");
+	public final static Item gunP90 = new Gun(4319, "GunMod:P90", CreativeTabs.tabCombat, true, ammoP90, "Bullet", (double)1, 1).setUnlocalizedName("gun P90");
+	public final static Item gunRPD = new Gun(4320, "GunMod:RPD", CreativeTabs.tabCombat, true, ammoRPDDrum, "Bullet", (double)1, 1).setUnlocalizedName("gun RPD");
+	public final static Item gunRPG = new Gun(4321, "GunMod:RPG", CreativeTabs.tabCombat, true, ammoRocketGrenade, "Bullet", (double)1, 1).setUnlocalizedName("gun RPG");
+	public final static Item gunSMAW = new Gun(4322, "GunMod:SMAW", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun SMAW");//Need ammo
+	public final static Item gunSpas12 = new Gun(4323, "GunMod:Spas-12", CreativeTabs.tabCombat, true, ammo357, "Bullet", (double)1, 1).setUnlocalizedName("gun Spas-12");//Need ammo
 	
 	//Stufffffs
 	private MinelegionGuiHandler minelegionGuiHandler = new MinelegionGuiHandler();
