@@ -59,8 +59,8 @@ public class GunMod {
 	public final static Item ItemRPGRocketTube = new BasicItem(4120, "GunMod:NA").setUnlocalizedName("item_rpg_rocket_tube").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	public final static Item ItemShoulderMount = new BasicItem(4121, "GunMod:NA").setUnlocalizedName("item_shoulder_mount").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	public final static Item ItemSMAWRocketTube = new BasicItem(4122, "GunMod:NA").setUnlocalizedName("item_smaw_rocket_tube").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
-	public final static Item ItemSMAWGripTrigger = new BasicItem(4123, "GunMod:NA").setUnlocalizedName("item_smaw_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
-	public final static Item ItemSMGSTOCK = new BasicItem(4124, "GunMod:NA").setUnlocalizedName("item_smg_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSMGGripTrigger = new BasicItem(4123, "GunMod:NA").setUnlocalizedName("item_smg_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
+	public final static Item ItemSMGStock = new BasicItem(4124, "GunMod:NA").setUnlocalizedName("item_smg_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	public final static Item ItemSniperRifleBarrel = new BasicItem(4125, "GunMod:NA").setUnlocalizedName("item_sniper_rifle_barrel").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	public final static Item ItemSniperRifleGripTrigger = new BasicItem(4126, "GunMod:NA").setUnlocalizedName("item_sniper_rifle_grip_trigger").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
 	public final static Item ItemSniperRifleStock = new BasicItem(4127, "GunMod:NA").setUnlocalizedName("item_sniper_rifle_stock").setMaxStackSize(64).setCreativeTab(CreativeTabs.tabCombat);
@@ -152,6 +152,35 @@ public class GunMod {
 		LanguageRegistry.addName(ItemShot, "Shot");
 		LanguageRegistry.addName(ItemIronPlating, "Iron Plating");
 		LanguageRegistry.addName(ItemAbsPlastic, "ABS Plastic");
+		LanguageRegistry.addName(ItemBallisticScope, "Ballistic Scope");
+		LanguageRegistry.addName(ItemBipod, "Bipod");
+		LanguageRegistry.addName(ItemCarryHandle, "Carry Handle");
+		LanguageRegistry.addName(ItemRocketExhaust, "Rocket Exhaust");
+		LanguageRegistry.addName(ItemIronSights, "Iron Sights");
+		LanguageRegistry.addName(ItemLMGGripTrigger, "LMG Grip & Trigger");
+		LanguageRegistry.addName(ItemLMGStock, "LMG Stock");
+		LanguageRegistry.addName(ItemPistolBarrel, "Pistol Barrel");
+		LanguageRegistry.addName(ItemPistolBolt, "Pistol Bolt");
+		LanguageRegistry.addName(ItemPistolGripTrigger, "Pistol Grip & Trigger");
+		LanguageRegistry.addName(ItemRedDotSight, "Red Dot Sight");
+		LanguageRegistry.addName(ItemRevolverChamber, "Revolver Chamber");
+		LanguageRegistry.addName(ItemRifleBarrel, "Rifle Barrel");
+		LanguageRegistry.addName(ItemRifleBolt, "Rifle Bolt");
+		LanguageRegistry.addName(ItemRifleGripTrigger, "Rifle Grip & Trigger");
+		LanguageRegistry.addName(ItemRifleStock, "Rifle Stock");
+		LanguageRegistry.addName(ItemRocketTrigger, "Rocket Trigger");
+		LanguageRegistry.addName(ItemRPGRocketTube, "RPG Rocket Tube");
+		LanguageRegistry.addName(ItemShoulderMount, "Shoulder Mount");
+		LanguageRegistry.addName(ItemSMAWRocketTube, "SMAW Rocket Tube");
+		LanguageRegistry.addName(ItemSMGGripTrigger, "SMG Grip & Trigger");
+		LanguageRegistry.addName(ItemSMGStock, "SMG STOCK");
+		LanguageRegistry.addName(ItemSniperRifleBarrel, "Sniper Rifle Barrel");
+		LanguageRegistry.addName(ItemSniperRifleGripTrigger, "Sniper Rifle Grip & Trigger");
+		LanguageRegistry.addName(ItemSniperRifleStock, "Sniper Rifle Stock");
+		LanguageRegistry.addName(ItemTacticalSight, "Tactical Sight");
+		LanguageRegistry.addName(ItemThermalBinoculars, "Thermal Binoculars");
+		LanguageRegistry.addName(ItemWeaverRail, "Weaver Rail");
+		LanguageRegistry.addName(ItemWoodenStock, "Wooden Stock");
 		
 		//Adding Ammo names
 		LanguageRegistry.addName(ammoP90, "5.7mm P90 Mag.");
@@ -205,6 +234,8 @@ public class GunMod {
 		//Adding Blocks Recipes
 		GameRegistry.addRecipe(new ItemStack(weaponsBox, 1, 0), "xxx", "yyy", "yyy", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.workbench));
 		GameRegistry.addRecipe(new ItemStack(ammoBox, 1, 0), "xxx", "yyy", "xxx", 'x', new ItemStack(ItemIronPlating), 'y', new ItemStack(Block.workbench));
+		
+		//Adding Crafting parts Crafting recipes
 		
 		//Adding Gun Recipes
 		GameRegistry.addRecipe(new ItemStack(gun357Magnum), "   ", "xxy", "y  ", 'x', new ItemStack(Block.planks), 'y', new ItemStack(Block.cobblestone));
