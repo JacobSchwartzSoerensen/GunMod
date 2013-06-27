@@ -2,6 +2,7 @@ package me.jacobschwartz.gunMod;
 
 import java.util.List;
 
+import cpw.mods.fml.common.registry.IThrowableEntity;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
@@ -30,7 +31,7 @@ import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
 
-public class EntityBullet extends Entity  implements IProjectile {
+public class EntityBullet extends Entity  implements IThrowableEntity, IProjectile {
 	
 	private int xTile = -1;
     private int yTile = -1;
@@ -620,5 +621,15 @@ public class EntityBullet extends Entity  implements IProjectile {
     	
     	
     }
+	@Override
+	public Entity getThrower() {
+		// TODO Auto-generated method stub
+		return this.shootingEntity;
+	}
+	@Override
+	public void setThrower(Entity entity) {
+		this.shootingEntity = entity;
+		
+	}
 
 }
